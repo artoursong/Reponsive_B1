@@ -105,6 +105,20 @@ nav .header-button {
     gap: 5px
 }
 
+nav .menu-button {
+   display: flex;
+   align-items: center;
+}
+
+.menu-button i {
+    padding: 3px 15px;
+    background-color: #e9aa24;
+    border-radius: 0.25rem;
+    color: white;
+    line-height: 30px;
+    display: none;
+}
+
 .header-button li {
     list-style: none;
     display: flex;
