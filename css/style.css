@@ -1,0 +1,366 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: "inherit";
+	vertical-align: baseline;
+	font-family: 'Montserrat', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: "Segoe UI", 'Roboto', sans-serif;
+    height: 100vh;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background-image: url("/img/background.png");
+    background-size: cover;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+header {
+    background-color: white;
+}
+
+header nav {
+    display: flex;
+    height: 64px;
+    margin: 0px 5px;
+}
+nav .header-menu {
+    display: flex;
+    gap: 24px;
+    margin: 0 8px;
+    line-height: 30px;
+}
+
+.header-menu a {
+    height: 48px;
+    line-height: 30px;
+    padding: 12px 5px;
+    color: black;
+}
+
+.header-menu li {
+    height: 100%;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav .header-button {
+    margin-left: auto;
+}
+
+header a {
+    text-decoration: none;
+    /* height: 100%; */
+}
+nav .header-button {
+    line-height: 30px;
+    display: flex;
+    gap: 5px
+}
+
+.header-button li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.login-button a {
+    padding: 5px 25px;
+    background-color: #e9aa24;
+    border-radius: 0.25rem;
+    color: white;
+}
+
+.signup-button a {
+    padding: 5px 25px;
+    background-color: #073a6f;
+    border-radius: 0.25rem;
+    color: white;
+}
+
+/* DETAIL SECTION */
+
+.detail-section {
+    margin-top: 70px
+}
+
+.detail-section .detail-items {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.detail-items .item-container {
+    width: calc(100%/3);
+    position: relative;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.item-container img {
+    width: 100%;
+}
+
+.detail-items .item-container .img-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 18px;
+}
+
+.img-info .name {
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #e9ab25;
+}
+
+/* TIME OPEN */
+
+.time-open {
+    height: 85px;
+    margin-top: 22px;
+    background-color: #e9aa24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25rem;
+}
+
+.time-open span {
+    font-size: 30px;
+    color: white;
+}
+
+/* OFFER SECTION */
+
+.offer-section {
+    margin-top: 20px;
+    background-color: rgba(23, 53, 89, 0.8);
+}
+
+.offer-section .offer-info {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+}
+
+.offer-info .offer-info-left {
+    width: 50%;
+    display: flex;
+    border-right: 1px solid white;
+}
+
+.offer-info-left img {
+    margin-right: 20px;
+}
+
+.offer-info-left .text-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.offer-info-right {
+    width: 50%;
+    padding-top: 45px;
+    margin-bottom: 10px
+}
+
+.offer-info-right .item {
+    padding-left: 26px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    
+}
+
+.offer-info-right .item img {
+    margin-right: 8px
+}
+
+.offer-section .benefits-advertise {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px;
+    padding-bottom: 60px;
+}
+
+.benefits-advertise .benefits {
+    width: 50%;
+    display: flex;
+}
+
+.benefits h1 {
+    margin-bottom: 26px;
+    font-size: 24px;
+    color: #ffd15c;
+    margin-left: 5px
+}
+
+.benefits ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+}
+
+
+.benefits-advertise .advertise {
+    width: 50%;
+    display: flex;
+}
+
+.advertise h1 {
+    margin-bottom: 26px;
+    font-size: 24px;
+    color: #ffd15c;
+    margin-left: 5px
+}
+
+.advertise ul li {
+    margin-bottom: 10px;
+    gap: 5px;
+    color: white;
+}
+
+/*END OFFER SECTION*/
+
+/*BANNER SECTION*/
+
+.banner {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner .banner-item {
+    text-align: center;
+    background-color: white;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+
+.banner-item span {
+    
+}
+
+/*END BANNER SECTION*/
+
+/*FOOTER*/
+footer {
+    margin-top: 20px;
+}
+
+.footer-items {
+    display: flex;
+    background-color: #06253c;
+    color: white;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 16px;
+    padding-bottom: 16px
+}
+
+.footer-items .copy-rights {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-items .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-right: 80px
+}
+
+.footer-items .footer-menu ul {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    gap: 15px;
+    height: 100%;
+}
+
+.footer-menu ul li {
+    height: 100%;
+}
+
+.footer-menu ul li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white
+}
