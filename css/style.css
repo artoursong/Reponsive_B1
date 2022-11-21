@@ -112,30 +112,36 @@ nav .header-button {
 }
 
 .login-button a {
-    padding: 5px 25px;
+    padding: 3px 15px;
     background-color: #e9aa24;
     border-radius: 0.25rem;
     color: white;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 400;
 }
 
 .signup-button a {
-    padding: 5px 25px;
+    padding: 3px 15px;
     background-color: #073a6f;
     border-radius: 0.25rem;
     color: white;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 400;
 }
 
 /* DETAIL SECTION */
 
 .detail-section {
-    margin-top: 70px
+    margin-top: 70px;
+    width: 100%;
 }
 
 .detail-section .detail-items {
     display: flex;
-    justify-content: space-between;
-    margin-left: -8px;
     margin-right: -8px;
+    width: 100%;
 }
 
 .detail-items .item-container {
@@ -154,8 +160,10 @@ nav .header-button {
     flex-direction: column;
     text-align: center;
     position: absolute;
-    width: 100%;
+    left: 50%;
     bottom: 18px;
+    transform: translateX(-50%);
+    white-space: nowrap;
 }
 
 .img-info .name {
@@ -163,7 +171,9 @@ nav .header-button {
     line-height: 30px;
     font-weight: 400;
     color: #e9ab25;
+    white-space: nowrap;
 }
+
 
 /*END DETAIL*/
 
@@ -270,6 +280,7 @@ nav .header-button {
 
 
 .benefits-advertise .advertise {
+    margin-left: 50px;
     width: 50%;
     display: flex;
 }
@@ -283,7 +294,6 @@ nav .header-button {
 
 .advertise ul li {
     margin-bottom: 10px;
-    gap: 5px;
     color: white;
 }
 
