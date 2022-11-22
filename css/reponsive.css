@@ -17,6 +17,7 @@
 
     .detail-section .detail-items {
         flex-direction: column;
+        gap: 15px
     }
 
     .detail-section .detail-items .item-container {
@@ -25,8 +26,19 @@
 
     .detail-section .time-open {
         text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
+    .offer-section {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .banner {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
     .offer-section .offer-info {
         flex-direction: column;
     }
@@ -75,7 +87,8 @@
 
 @media screen and (max-width: 575.98px) {
     .footer-items .footer-menu ul {
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .benefits-advertise .benefits {
         flex-direction: column-reverse;
@@ -87,6 +100,7 @@
     .benefits-advertise .advertise {
         flex-direction: column-reverse;
         align-items: center;
+        margin-left: unset;
     }
     .advertise .advertise-img {
         margin-bottom: 50px;
@@ -94,11 +108,14 @@
     .offer-section .offer-info .offer-info-left {
         flex-direction: column;
         align-items: center;
+    }
+
+    .offer-info-left .text-item {
         text-align: center;
     }
     .offer-section .offer-info .offer-info-right {
         align-items: center;
-        text-align: center;
+        justify-content: center;
     }
 
     .offer-info-right .item {
@@ -127,8 +144,5 @@
     .offer-section .offer-info {
         padding-left: 0px;
         padding-right: 0px;
-    }
-    .benefits-advertise .info {
-        text-align: center;
     }
 }
