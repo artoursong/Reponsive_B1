@@ -1,5 +1,134 @@
-@media screen and (max-width: 992px) {
-    .menu-button {display: block;}
-    .header-menu {display: none;}
+@media screen and (max-width: 991.98px) {
+    .container nav .menu-button {
+        display: block;
+    }
+    nav .header-menu.show {
+        display: block;
+    }
+    nav .header-menu {
+        display: none;
+        position: absolute;
+        top: 64px;
+        left: 0px;
+        width: 100%;
+        background-color: white;
+        margin: 0px;
+    }
+
+    .detail-section .detail-items {
+        flex-direction: column;
+    }
+
+    .detail-section .detail-items .item-container {
+        width: 100%;
+    }
+
+    .detail-section .time-open {
+        text-align: center;
+    }
+
+    .offer-section .offer-info {
+        flex-direction: column;
+    }
+
+    .offer-section .offer-info .offer-info-left {
+        width: 100%;
+        border-right: none;
+    }
+
+    .offer-info-left img {
+        margin-right: 0;
+    }
+
+    .offer-section .offer-info .offer-info-right {
+        width: 100%;
+    }
+
+    .offer-section .benefits-advertise {
+        flex-direction: column;
+    }
+
+    .benefits-advertise .benefits {
+        width: 100%;
+    }
+
+    .benefits-advertise .advertise {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 50px
+    }
+
+    .footer-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-items .copy-rights {
+        margin-right: 0px;
+        margin-bottom: 20px
+    }
+    .footer-items .logo {
+        margin-right: 0px;
+        margin-bottom: 20px
+    }
 }
-    
+
+@media screen and (max-width: 575.98px) {
+    .footer-items .footer-menu ul {
+        flex-direction: column;
+    }
+    .benefits-advertise .benefits {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .benefits .benefits-img {
+        margin-bottom: 50px;
+    }
+    .benefits-advertise .advertise {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .advertise .advertise-img {
+        margin-bottom: 50px;
+    }
+    .offer-section .offer-info .offer-info-left {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .offer-section .offer-info .offer-info-right {
+        align-items: center;
+        text-align: center;
+    }
+
+    .offer-info-right .item {
+        display: block;
+    }
+    .offer-info-right .item img {
+        margin: 0px
+    }
+    .benefits ul li {
+        display: block;
+    }
+    .footer-items .copy-rights {
+        text-align: center;
+        display: block;
+    }
+    .benefits h1 {
+        text-align: center;
+    }
+    .advertise h1 {
+        text-align: center;
+    }
+    .offer-section .benefits-advertise {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .offer-section .offer-info {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .benefits-advertise .info {
+        text-align: center;
+    }
+}
