@@ -119,6 +119,11 @@ nav .menu-button {
    cursor: pointer;
 }
 
+nav .menu-button i:hover {
+    background-color: white;
+    border: 1px solid #e9aa24;
+    color: #e9aa24;
+}
 .menu-button i {
     padding: 3px 15px;
     background-color: #e9aa24;
