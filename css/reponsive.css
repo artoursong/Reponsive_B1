@@ -52,6 +52,15 @@
         margin-right: 0;
     }
 
+    .img-info .name {
+        font-size: 30px;
+    }
+
+    .img-info {
+        font-size: 30px;
+        line-height: 2;
+    }
+
     .offer-section .offer-info .offer-info-right {
         width: 100%;
     }
@@ -144,5 +153,15 @@
     .offer-section .offer-info {
         padding-left: 0px;
         padding-right: 0px;
+    }
+
+    .img-info {
+        font-size: 1.1875rem;
+        line-height: 1.875rem;
+    }
+
+    .img-info .name {
+        font-size: 1.1875rem;
+        line-height: 1.875rem;
     }
 }
